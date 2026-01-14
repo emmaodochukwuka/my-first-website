@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DE EMMANUEL'S ENTERPRISES</title>
+<style>
+  body { margin: 0; font-family: "Times New Roman", serif; text-align: center; }
+  .bg-img { position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2; }
+  .overlay { position: fixed; top:0; left:0; width:100%; height:100%; background: linear-gradient(rgba(255,255,255,0.92), rgba(173,216,230,0.92)); z-index: -1; }
+  header { background: linear-gradient(132deg, blue, navy); color:white; padding:20px; }
+  nav { background: linear-gradient(132deg, white, lightgray); display:flex; justify-content:center; padding:10px; }
+  nav a { color:blue; margin:0 15px; font-weight:bold; text-decoration:none; }
+  nav a:hover { text-decoration: underline; }
+  .hero { background: none; height:300px; display:flex; align-items:center; justify-content:center; color:white; font-size:2em; font-weight:bold; text-shadow: 2px 2px 5px black; }
+  .container { padding: 20px; }
+  .product-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:20px; }
+  .product { background:white; border-radius:9px; padding:15px; box-shadow:0 2px 5px rgba(0,0,0,0.1); text-align:center; }
+  .product img { width:100%; height:150px; object-fit:cover; border-radius:5px; }
+  .product h3 { margin:10px 0 5px; color:blue; }
+  .product p { color:green; font-weight:bold; }
+  footer { background:blue; color:white; text-align:center; padding:20px; margin-top:40px; }
+</style>
+</head>
+<body>
+
+<img src="https://images.unsplash.com/photo-1600359754288-6d8cfc6a1e27" alt="Keke Spare Parts Background" class="bg-img">
+<div class="overlay"></div>
+
+<header>
+  <h1>DE EMMANUEL'S ENTERPRISES</h1>
+  <p>Your Satisfaction Is Our Business!</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="hero">We Offer the Best There Is!</div>
+
+<div class="container">
+<h2 style="text-align:center; color:blue;">Popular Products</h2>
+<div class="product-grid">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1582501957651-f72b0282aa5e" alt="Piston">
+    <h3>TVS Followcome Piston</h3>
+    <p>₦25,000</p>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1615485734477-1cfd7408a316" alt="Fiber">
+    <h3>Fiber</h3>
+    <p>₦3,000</p>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1590080876218-964b277acee9" alt="Needle Bearing">
+    <h3>Followcome Needle Bearing</h3>
+    <p>₦3,000</p>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1582515073490-dc0a8370bb1d" alt="Shoebrake">
+    <h3>Followcome Shoebrake</h3>
+    <p>₦7,500</p>
+  </div>
+</div>
+</div>
+
+<footer>
+  &copy; 2026 DE EMMANUEL'S ENTERPRISES | All Rights Reserved
+</footer>
+
+</body>
+</html>
